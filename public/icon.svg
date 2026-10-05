@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="100%" stop-color="#18181b" />
+    </linearGradient>
+    <linearGradient id="catGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="catAmber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Bottom Cat (Green) -->
+  <g transform="translate(136, 248)">
+    <polygon points="24,0 68,0 46,-36" fill="#10b981" />
+    <polygon points="172,0 216,0 194,-36" fill="#10b981" />
+    <rect x="0" y="0" width="240" height="176" rx="44" fill="url(#catGreen)" stroke="#052e16" stroke-width="10" />
+    <circle cx="76" cy="76" r="22" fill="#ffffff" />
+    <circle cx="164" cy="76" r="22" fill="#ffffff" />
+    <circle cx="82" cy="76" r="10" fill="#09090b" />
+    <circle cx="170" cy="76" r="10" fill="#09090b" />
+    <rect x="104" y="106" width="32" height="12" rx="6" fill="#064e3b" />
+  </g>
+  <!-- Top Stacked Cat (Amber) -->
+  <g transform="translate(166, 108)">
+    <polygon points="18,0 54,0 36,-28" fill="#f59e0b" />
+    <polygon points="126,0 162,0 144,-28" fill="#f59e0b" />
+    <rect x="0" y="0" width="180" height="136" rx="36" fill="url(#catAmber)" stroke="#451a03" stroke-width="10" />
+    <circle cx="58" cy="60" r="18" fill="#ffffff" />
+    <circle cx="122" cy="60" r="18" fill="#ffffff" />
+    <circle cx="63" cy="60" r="8" fill="#09090b" />
+    <circle cx="127" cy="60" r="8" fill="#09090b" />
+    <rect x="78" y="84" width="24" height="10" rx="5" fill="#78350f" />
+  </g>
+</svg>

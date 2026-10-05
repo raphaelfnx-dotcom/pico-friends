@@ -1,0 +1,6 @@
+{
+  "name": "Pico Friends - Plataforma Cooperativo Mobile",
+  "description": "Jogo cooperativo multiplayer mobile estilo Pico Park: empilhe amigos, empurre caixas pesadas, pressione botões sincronizados e vençam juntos as fases!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

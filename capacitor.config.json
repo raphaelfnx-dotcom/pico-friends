@@ -1,0 +1,9 @@
+{
+  "appId": "com.picofriends.game",
+  "appName": "Pico Friends",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
